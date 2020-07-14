@@ -1,16 +1,16 @@
-// ****************     Assignment 6 *****   Task 1 **Chapter 21-25 **********
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 1 
 
 // var firstName=prompt("Enter First Name","");
 // var lastName=prompt("Enter last Name","");
 // var fullName=firstName+lastName;
 // alert(fullName);
 
-// ****************     Assignment 6 *****   Task 2 **Chapter 21-25 **********
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 2 
 
 // var mobileName=prompt("Enter Favorite ","");
 // document.write("My Favorite phone is: "+mobileName+"<br>Length of string: "+mobileName.length);
 
-// ****************     Assignment 6 *****   Task 3 **Chapter 21-25 **********
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 3 
 
 // var Word=prompt("Enter a Word ","");
 // var findValue=prompt("Enter a Letter to find ","");
@@ -18,7 +18,7 @@
 //     document.write("String: "+Word+"<br>Index of '"+findValue+"' : "+Word.indexOf(findValue));
 // }
 
-// ****************     Assignment 6 *****   Task 4 **Chapter 21-25 **********
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 4 
 
 // var Word="Hello World";
 // var findValue="l";
@@ -28,7 +28,7 @@
 //     document.write("String: "+Word+"<br>Index of '"+findValue+"' : "+Word.indexOf(findValue));
 // }
 
-// ****************     Assignment 6 *****   Task 5 **Chapter 21-25 **********
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 5 
 
 // var Word="Pakistan";
 // var findValue=3;
@@ -36,19 +36,19 @@
 // // alert(split[findValue]);
 // document.write("String: "+Word+"<br>Character at index "+findValue+"' : "+split[findValue]);
 
-// ****************     Assignment 6 *****   Task 6 **Chapter 21-25 **********
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 6 
 
 // var firstName=prompt("Enter First Name","");
 // var lastName=prompt("Enter last Name","");
 // alert(firstName+lastName);
 
-// ****************     Assignment 6 *****   Task 7 **Chapter 21-25 **********
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 7 
 
 // var city="Hyderabad";
 // var res=city.replace("Hyder","Islam")
 // document.write("City: "+city+"<br>After replacement:"+res);
 
-// ****************     Assignment 6 *****   Task 8 **Chapter 21-25 **********
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 8 
 
 // var message ="Ali and Sami are best friends. They play cricket and football together.";
 // var res="";
@@ -70,21 +70,21 @@
 // document.write("Text: "+sentence+" <br>There are "+count+" occurrence(s) of word 'the'");
 
 
-// ****************     Assignment 6 *****   Task 9 **Chapter 21-25 **********
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 9 
 
 // var num=472;
 // var numString=num.toString();
 // // alert(typeof numString);
 // document.write("Value: "+numString+"<br>Type: "+typeof numString+"<br>Value: "+num+"<br>Type: "+typeof num);
 
-// ****************     Assignment 6 *****   Task 10 **Chapter 21-25 **********
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 10 
 
 // var smallWords=prompt("Enter a Word","");
 // var CapWords=smallWords.toUpperCase()
 // // alert(smallWords);
 // document.write("User input: "+smallWords+"<br>Upper case: "+CapWords)
 
-// ****************     Assignment 6 *****   Task 11 **Chapter 21-25 **********
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 11 
 
 // var smallWords=prompt("Enter a Word","");
 // ////alert(typeof smallWords);
@@ -100,7 +100,7 @@
 // document.write("User input: "+smallWords+"<br>Title case: "+CapWords);
 
 
-// ****************     Assignment 6 *****   Task 12 **Chapter 21-25 **********
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 12 
 
 // var num=35.36;
 // var numString=num+"";
@@ -109,14 +109,14 @@
 // // alert(numString);
 // document.write("Number: "+num+"<br>Result: "+numString);
 
-// ****************     Assignment 6 *****   Task 13 **Chapter 21-25 **********
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 13 
 
 // var userName=prompt("Enter a User Name");
 // if(userName.indexOf(33)){
 //     alert("Please enter a valid username");
 // }
         /////problem can't understand how to solve
-// ****************     Assignment 6 *****   Task 14 **Chapter 21-25 **********
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 14 
 
 // var A=["cake", "apple pie", "cookie", "chips", "patties"] 
 // var check=prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?","");
@@ -127,7 +127,7 @@
 
 // }                                                                                0=48 9=57
 
-// ****************     Assignment 6 *****   Task 15 **Chapter 21-25 **********
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 15 
 
 // var password=prompt("Enter Password ");
 // // var convert=password.charCodeAt();
@@ -146,7 +146,7 @@
 //     }
 // }
 
-// ****************     Assignment 6 *****   Task 16 **Chapter 21-25 **********
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 16 
 
 // var university="University of Karachi";
 // universityArray=university.split("");
@@ -155,13 +155,13 @@
 // }
 //// document.write(universityArray);
 
-// ****************     Assignment 6 *****   Task 17 **Chapter 21-25 **********
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 17 
 
 // var Word="Pakistan";
 // var split=Word.split("")
 // document.write("User input: "+Word+"<br>Last Character of input "+split[Word.length-1]);
 
-// ****************     Assignment 6 *****   Task 18 **Chapter 21-25 **********
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 18 
 
 // var sentence="The quick the brown fox the jumps over the lazy dog."
 // var sentenceArray=sentence.split(" ") //// here we provide space for perticular word as a array index
@@ -174,24 +174,24 @@
 // }
 // document.write("Text: "+sentence+" <br>There are "+count+" occurrence(s) of word 'the'");
 
-// ****************     Assignment 6 *****   Task 1 **Chapter 26-30 **********
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 1 
 
 // var num=prompt("Enter a number");
 // // var num=3.452;
 // document.write("number: "+num+"<br>round off value: "+Math.round(num)+"<br>floor value: "+Math.floor(num)+"<br>ceil value: "+Math.ceil(num));
 
-// ****************     Assignment 6 *****   Task 2 **Chapter 26-30 **********
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 2 
 
 // var num=prompt("Enter a Negative number");
 // // var num=3.452;
 // document.write("number: "+num+"<br>round off value: "+Math.round(num)+"<br>floor value: "+Math.floor(num)+"<br>ceil value: "+Math.ceil(num));
 
-// ****************     Assignment 6 *****   Task 3 **Chapter 26-30 **********
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 3 
 
 // var number=prompt("Enter a number");
 // document.write("The absolute value of "+number+" is "+Math.abs(number));
 
-// ****************     Assignment 6 *****   Task 4 **Chapter 26-30 **********
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 4 
 
 // var bigDecimal = Math.random();
 // // document.write(bigDecimal+"<br>");
@@ -201,7 +201,7 @@
 // // document.write(numberOfStars);
 // document.write("random dice value: "+numberOfStars);
 
-// ****************     Assignment 6 *****   Task 5 **Chapter 26-30 **********
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 5 
 
 // var randomValue=Math.random();
 // // document.write("value "+value);
@@ -215,7 +215,7 @@
 //         document.write(result+"<br>random coin value: Tails");
 // }
 
-// ****************     Assignment 6 *****   Task 6 **Chapter 26-30 **********
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 6 
 
 // var bigDecimal = Math.random();
 // // document.write(bigDecimal+"<br>");
@@ -225,7 +225,7 @@
 // // document.write(numberOfStars);
 // document.write("random number between 1 and 100: "+numberOfStars);
 
-// ****************     Assignment 6 *****   Task 7 **Chapter 26-30 **********
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 7 
 
 // var userWeight=+prompt("Enter Your Weight");
 // var bigDecimal = Math.random();
@@ -237,7 +237,7 @@
 // // document.write(numberOfStars);
 // document.write("The weight of user is "+(userWeight+numberOfStars));
 
-// ****************     Assignment 6 *****   Task 8 **Chapter 26-30 **********
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 8 
 
 // var bigDecimal = Math.random();
 // // document.write(bigDecimal+"<br>");
@@ -253,12 +253,12 @@
 //         alert("Sorry! The Secret key is "+numberOfStars);
 // }
 
-// ****************     Assignment 6 *****   Task 1 **Chapter 31-34 **********
+// **********Chapter 31-34********     Assignment 6 *****   Task 1 
 
 // var date=Date();
 // document.write(date);
 
-// ****************     Assignment 6 *****   Task 2 **Chapter 31-34 **********
+// **********Chapter 31-34********     Assignment 6 *****   Task 2 
 
 //// date.toString();     //here is a mistake that date to string not save in any variable.
 //// var month=date.slice(0,3)    
@@ -296,19 +296,19 @@
 //         document.write("Current Month: December");
 // }
 
-// ****************     Assignment 6 *****   Task 3 **Chapter 31-34 **********
+// **********Chapter 31-34********     Assignment 6 *****   Task 3 
 
 
 
-// ****************     Assignment 6 *****   Task 4 **Chapter 31-34 **********
-// ****************     Assignment 6 *****   Task 5 **Chapter 31-34 **********
-// ****************     Assignment 6 *****   Task 6 **Chapter 31-34 **********
-// ****************     Assignment 6 *****   Task 7 **Chapter 31-34 **********
-// ****************     Assignment 6 *****   Task 8 **Chapter 31-34 **********
-// ****************     Assignment 6 *****   Task 9 **Chapter 31-34 **********
-// ****************     Assignment 6 *****   Task 10 **Chapter 31-34 **********
-// ****************     Assignment 6 *****   Task 11 **Chapter 31-34 **********
-// ****************     Assignment 6 *****   Task 12 **Chapter 31-34 **********
-// ****************     Assignment 6 *****   Task 13 **Chapter 31-34 **********
-// ****************     Assignment 6 *****   Task 14 **Chapter 31-34 **********
+// **********Chapter 31-34********     Assignment 6 *****   Task 4 
+// **********Chapter 31-34********     Assignment 6 *****   Task 5 
+// **********Chapter 31-34********     Assignment 6 *****   Task 6 
+// **********Chapter 31-34********     Assignment 6 *****   Task 7 
+// **********Chapter 31-34********     Assignment 6 *****   Task 8 
+// **********Chapter 31-34********     Assignment 6 *****   Task 9 
+// ***********Chapter 31-34*******     Assignment 6 *****   Task 10 
+// ***********Chapter 31-34*******     Assignment 6 *****   Task 11 
+// ***********Chapter 31-34*******     Assignment 6 *****   Task 12 
+// ***********Chapter 31-34*******     Assignment 6 *****   Task 13 
+// ***********Chapter 31-34*******     Assignment 6 *****   Task 14 
 
