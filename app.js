@@ -97,8 +97,11 @@
 // //// var myJSON=JSON.stringify(CapWords)
 // //// var converttoString=CapWords.toString()
 // //// alert(typeof converttoString);
-// document.write("User input: "+smallWords+"<br>Title case: "+CapWords);
+// document.write("User input: "+smallWords+"<br>Title case: "+CapWords+"<br>");
 
+// //// one more 
+// a=smallWords.charAt(0).toUpperCase()+smallWords.slice(1);
+// document.write("<br>"+a);
 
 // **********Chapter 21-25 ****     Assignment 6 *****   Task 12 
 
@@ -407,12 +410,238 @@
 
 // ***********Chapter 31-34*******     Assignment 6 *****   Task 14 
 
-var units=410; charges=16;bill=units*charges;late=350;lateBill=bill+late;
-document.write("<h1>K-Electric Bill<br></h1>");
-document.write("<br>Customer Name: <b>ABC Customer</b>");
-document.write("<br>Month:<b> February</b>");
-document.write("<br>Number of units: <b>"+units+"</b>");
-document.write("<br>Charges per unit: <b>"+charges+"</b>");
-document.write("<br><br>Net Amount Payable (within Due Date): <b>"+bill+"</b>");
-document.write("<br>Late payment surcharge: <b>"+late+"</b>");
-document.write("<br>Gross Amount Payable (after Due Date): <b>"+lateBill+"</b>");
+// var units=410; charges=16;bill=units*charges;late=350;lateBill=bill+late;
+// document.write("<h1>K-Electric Bill<br></h1>");
+// document.write("<br>Customer Name: <b>ABC Customer</b>");
+// document.write("<br>Month:<b> February</b>");
+// document.write("<br>Number of units: <b>"+units+"</b>");
+// document.write("<br>Charges per unit: <b>"+charges+"</b>");
+// document.write("<br><br>Net Amount Payable (within Due Date): <b>"+bill+"</b>");
+// document.write("<br>Late payment surcharge: <b>"+late+"</b>");
+// document.write("<br>Gross Amount Payable (after Due Date): <b>"+lateBill+"</b>");
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 1 
+
+// function time(){
+//         var date=new Date();
+//         alert(date);
+// }
+// time();
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 2 
+
+// function greet(firstName,lastName){
+//         alert("Welcome "+(firstName+lastName));
+// }
+// var firstName=prompt("Enter your First Name")
+// var lastName=prompt("Enter your Last Name")
+// greet(firstName,lastName);
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 3 
+
+// function add(Num1,Num2){
+//         var result=Num1+Num2
+//         return result;
+// }
+// var num1=+prompt("Enter First Number");
+// var num2=+prompt("Enter Second Number");
+// var result=add(num1,num2);
+// alert("Result is "+result);
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 4 
+
+// function calculator(firstValue,operator,SecondValue){
+// //here only calculate 
+//         if(operator === "-")
+//             {
+//                 var c=a-b;
+//                 return c;
+//             }
+//         else if(operator === "*")
+//             {
+//                 var c=a*b;
+//                 return c;
+//             }
+//         else if(operator === "/")
+//             {
+//                 var c=a/b;
+//                 return c;
+//             }
+//         else if(operator === "+")
+//             {
+//                 var c=a+b;
+//                 return c;
+//             }
+//         else if(operator === "%")
+//             {
+//                 var c=b/a;
+//                 return c;
+//             }
+// }
+// var a=+prompt("","Enter First Value");
+// var operator=prompt("","Enter Operator to Perform")
+// var b=+prompt("","Enter Second Value");
+// var result=calculator(a,operator,b);
+// if(operator === "-") //here if use because a/c to question return and also explain what operation done here.
+// {
+//     document.write("Difference of "+a+" and "+b+" is "+result+".");   
+// }
+// else if(operator === "*")
+// {
+//     document.write("Multiple of "+a+" and "+b+" is "+result+".");   
+// }
+// else if(operator === "/")
+// {
+//     document.write("Division of "+a+" by "+b+" is "+result+".");   
+// }
+// else if(operator === "+")
+// {
+//     document.write("Sum of "+a+" and "+b+" is "+result+".");   
+// }
+// else if(operator === "%")
+// {
+//     document.write("Modulus of "+a+" and "+b+" is "+result*100+"% .");   
+// }
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 5 
+
+// function square(Num){
+//         alert("Square of "+Num+" is "+Num*Num);
+        
+// }
+// var Value=prompt("Enter a Value for Its Square");
+// square(Value);
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 6 
+
+// function factorial(Num){
+//         for(var i=Num-1;i>=1;i--){
+//                 Num=Num*i
+//         }
+//         alert(Num);
+// }
+// var Value=prompt("Enter a Number");
+// factorial(Value);
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 7 
+
+// function count(start,end){
+//         document.write("<h1>Counting</h1>Starting "+start+"<br>Ending "+end+"<br>")
+//         for(var i=start;i<=end;i++){
+//                 document.write("<br>"+i);
+//         }
+// }
+// var num1=+prompt("Enter Starting Value");
+// var num2=+prompt("Enter Ending Value");
+// count(num1,num2);
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 8 
+
+// function square(value){
+//         value=value*value
+//         return value
+// }
+// function countHypo(base2,perp2){
+//         // console.log("<br>base2 "+base2)
+//         //console.log("<br>perp2 "+perp2)
+// var   base3=square(base2);
+// var   perp3=square(perp2);
+//         //console.log("<br>base2 "+base2)
+//        // console.log("<br>perp2 "+perp2)
+// var hyposqu=perp3+base3;
+// var hypo=Math.sqrt(hyposqu)
+// document.write("Base :"+base2+"<br>Perpendicular :"+perp2+"<br>Hypotenuse :"+hypo)
+// document.write("<br><br><br>BaseSquare :"+base3+"<br>PerpendicularSquare :"+perp3+"<br>HypotenuseSquare :"+hyposqu)
+
+// }
+// var base1=+prompt("Enter Base Value");
+// var perp1=+prompt("Enter Perpendicular Value");
+// //console.log("<br>base1 "+base1)
+// //console.log("<br>perp1 "+perp1)
+// countHypo(base1,perp1);
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 9 
+
+// function areaFind(value1,value2){
+//         document.write("<h1>Area of a Triangle</h1>")
+//         document.write("<br>Height: "+value2+"<br>Width: "+value1+"<br>Area: "+value1*value2);
+// }
+// var width=+prompt("Enter Width of a Triangle") 
+// var height=+prompt("Enter Height of a Triangle")
+// areaFind(width,height) 
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 10 
+
+// function checkPalindrome(word){
+//         var check="";
+//         for(var i=word.length-1;i>=0;i--){
+//                 check+=word[i]
+//         }
+//         if(word===check){
+//                 document.write(word+" is a Palindrome Word")
+//         }else{
+//                 document.write(word+" is not a Palindrome Word")
+//         }
+// }
+// var userWord=prompt("Enter a Word");
+// checkPalindrome(userWord);
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 11 
+
+// //// var input="the good fox";
+// //// console.log(input);
+// //// var split=input.split(" ");
+// //// console.log(split);
+// //// var a=split[0].toString().charAt(0).toUpperCase()+split[0].slice(1);
+// //// console.log(a);
+// //// var b=split[1].toString().charAt(0).toUpperCase()+split[1].slice(1);
+// //// console.log(b);
+// //// var c=split[2].toString().charAt(0).toUpperCase()+split[2].slice(1);
+// //// console.log(c);
+// //// console.log(a+b+c);
+// var input=prompt("Enter a sentence");
+// upperCase(input);
+// function upperCase(input){
+//         // console.log(input);
+//         var convert=[];     //here array declear for saving Convert Word
+//         var split=input.split(" ")  //here " " <- space use to split words with array(as a object)
+//         // console.log(split);
+//         for(var i=0;i<split.length;i++){        //here split.length q k hamen split jitny words hoa hen un k start ho change krna hai or wo kitny ye btayega
+//                  convert[i]=split[i].toString().charAt(0).toUpperCase()+split[i].slice(1);
+// }//1st array to string 2nd firstletter convert into uppercase 
+// //3rd add( concadinate kro) slice(1) sy not slice(0)X q k (0)index per capital word hai or hamen us k agy sy add krna hai 
+// // 4th convert[i] yahn hum wapis array me save kr rhen
+//         convert=convert.toString()    //here array sy string per ly aye wapis
+//         document.write("Input Sentence: "+input+"<br>Convert Sentence:  "+convert);
+// }
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 12
+
+// var input=prompt("Enter a Sentence");
+// var split=input.split(" ");
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 13 
+
+// var sentence=prompt("Enter a Sentence");
+// var Letter=prompt("Enter a Letter");
+// var count=0;
+// for(var i=0;i<sentence.length;i++){
+//         if(sentence[i]==Letter){
+//                 count++;
+//         }
+// }
+// document.write("Input Sentence is : "+sentence+"<br>Search Letter '"+Letter.toUpperCase()+"' Comes: "+count);
+
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 14 
+
+// function calcCircumference(radiusVal){
+//         var circum=Math.floor(2*Math.PI*radiusVal);
+//         document.write("Radius is :"+radiusVal+"<br>Circumference of Circle is :"+circum)
+// }
+// function calcArea(radiusVal){
+//         var area=Math.floor(Math.PI*radiusVal*radiusVal)
+//         document.write("<br>Area of Circle is :"+area)
+// }
+// var radius=+prompt("Enter Radius of a Circle") 
+// calcCircumference(radius);
+// calcArea(radius); 
