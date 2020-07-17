@@ -298,17 +298,121 @@
 
 // **********Chapter 31-34********     Assignment 6 *****   Task 3 
 
-
+// var date=new Date();
+// var day=date.toString(); //here date convert into string and save in day 
+//     day=day.slice(0,3); // now here day update with slice 
+// alert("Today is "+day)
 
 // **********Chapter 31-34********     Assignment 6 *****   Task 4 
+
+// var date=new Date();
+// var day=date.toString(); //here date convert into string and save in day 
+//     day=day.slice(0,3); // now here day update with slice 
+// // alert("Today is "+day)
+// if(day==="Sun" || day==="sun" || day==="Sat" || day==="sat"){
+//         alert("Its Fun Day")
+// }else{
+//         alert("Its Working Day")
+// }
+
 // **********Chapter 31-34********     Assignment 6 *****   Task 5 
+
+// var date=new Date();
+// var day=date.getDate();
+// alert(day);
+// if(day <16){
+//         alert("First fifteen Days of the month")
+// }else{
+//         alert("Last Days of the month")
+// }
+
 // **********Chapter 31-34********     Assignment 6 *****   Task 6 
+
+// var date=new Date();
+// var msec=date.getTime();
+// document.write("Current Date: "+date);
+// document.write("<br>Elapsed milliseconds since January 1,1970: "+msec);
+// document.write("<br>Elapsed minutes since January 1,1970: "+msec/60);
+
 // **********Chapter 31-34********     Assignment 6 *****   Task 7 
+
+// var date=new Date();
+// var mode=date.getHours();
+// document.write("Current Date: "+mode);
+// if(mode<12){
+//         alert("Its AM");
+// }else{
+//         alert("Its PM");
+// }
+
 // **********Chapter 31-34********     Assignment 6 *****   Task 8 
+
+// var date=new Date();
+// var day=date.getFullYear()
+// alert("Later Date: Thu Dec 31 2020 00:00:00 GMT+0500(PKT)");
+
 // **********Chapter 31-34********     Assignment 6 *****   Task 9 
+
+// var firstRamzan=new Date("June 18,2015"); //apni date insert 
+//     firstRamzan=firstRamzan.getTime(); //apni date tk k time milli per rakh k set krwao getime() k function sy
+// var currentDays=new Date();     // aj ka date and overwrite
+//     currentDays=currentDays.getTime();  // aj k date tk ka time in milli
+// var totalDays=(currentDays-firstRamzan)/(1000*60*60*24);  //convert into days and also take difference
+//     totalDays=Math.floor(totalDays); //roundoff and overwrite
+//     alert(totalDays)
+
 // ***********Chapter 31-34*******     Assignment 6 *****   Task 10 
+
+// var refDate=new Date("Dec 05,2015"); //apni date insert 
+//     refDate=refDate.getTime(); //apni date tk k time milli per rakh k set krwao getime() k function sy
+//     var currentDays=new Date();     // aj ka date and overwrite
+//     currentDays=currentDays.getTime();  // aj k date tk ka time in milli
+// var totalSec=(currentDays-refDate)/(1000);  //convert into seconds and also take difference
+//     totalSec=Math.floor(totalSec); //roundoff and overwrite
+//     document.write("On reference date Sat Dec 05 2015 GMT+0500(PKT)"); 
+//     document.write("<br>"+totalSec+" seconds had passed since beginning of 2015"); 
+
 // ***********Chapter 31-34*******     Assignment 6 *****   Task 11 
+
+// var currentDate=new Date();
+// //     currentDate=currentDate.getTime()
+//     document.write("<br>"+currentDate)
+// var agoHour=(currentDate.getHours())-1;
+// // document.write("<br>"+agoHour)
+// // var ago=currentDate;
+// //     ago=ago.setTime(agoHour)
+// document.write("<br>"+ago);
+
+//// KINDLY HELP HOW TO SOVE
+
 // ***********Chapter 31-34*******     Assignment 6 *****   Task 12 
+
+// var currentDate=new Date();
+// document.write(currentDate);
+// var yearago=currentDate.getUTCFullYear()-100;
+// document.write("<br>"+yearago);
+// // currentDate=currentDate;
+// var hunYearAgo=new Date(yearago);
+//     // hunYearAgo=hunYearAgo.getTime();
+// document.write("<br>"+hunYearAgo);
+
+
 // ***********Chapter 31-34*******     Assignment 6 *****   Task 13 
+
+// var age=prompt("Enter Your Age");
+// var currentYear=new Date();
+//     currentYear=currentYear.getUTCFullYear();
+// var dob=currentYear-age;
+// document.write("Your age is "+age+"<br>Your birth year is "+dob)
+
 // ***********Chapter 31-34*******     Assignment 6 *****   Task 14 
 
+var units=410; charges=16;bill=units*charges;late=350;lateBill=bill+late;
+document.write("<h1>K-Electric Bill<br></h1>");
+document.write("<br>Customer Name: <b>ABC Customer</b>");
+document.write("<br>Month:<b> February</b>");
+document.write("<br>Number of units: <b>"+units+"</b>");
+document.write("<br>Charges per unit: <b>"+charges+"</b>");
+document.write("<br><br>Net Amount Payable (within Due Date): <b>"+bill+"</b>");
+document.write("<br>Late payment surcharge: <b>"+late+"</b>");
+document.write("<br>Gross Amount Payable (after Due Date): <b>"+lateBill+"</b>");
