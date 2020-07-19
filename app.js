@@ -1,16 +1,16 @@
-// *********Chapter 21-25 *****     Assignment 6 *****   Task 1 
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 1
 
 // var firstName=prompt("Enter First Name","");
 // var lastName=prompt("Enter last Name","");
 // var fullName=firstName+lastName;
 // alert(fullName);
 
-// *********Chapter 21-25 *****     Assignment 6 *****   Task 2 
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 2
 
 // var mobileName=prompt("Enter Favorite ","");
 // document.write("My Favorite phone is: "+mobileName+"<br>Length of string: "+mobileName.length);
 
-// *********Chapter 21-25 *****     Assignment 6 *****   Task 3 
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 3
 
 // var Word=prompt("Enter a Word ","");
 // var findValue=prompt("Enter a Letter to find ","");
@@ -18,7 +18,7 @@
 //     document.write("String: "+Word+"<br>Index of '"+findValue+"' : "+Word.indexOf(findValue));
 // }
 
-// *********Chapter 21-25 *****     Assignment 6 *****   Task 4 
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 4
 
 // var Word="Hello World";
 // var findValue="l";
@@ -28,7 +28,7 @@
 //     document.write("String: "+Word+"<br>Index of '"+findValue+"' : "+Word.indexOf(findValue));
 // }
 
-// *********Chapter 21-25 *****     Assignment 6 *****   Task 5 
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 5
 
 // var Word="Pakistan";
 // var findValue=3;
@@ -36,19 +36,19 @@
 // // alert(split[findValue]);
 // document.write("String: "+Word+"<br>Character at index "+findValue+"' : "+split[findValue]);
 
-// *********Chapter 21-25 *****     Assignment 6 *****   Task 6 
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 6
 
 // var firstName=prompt("Enter First Name","");
 // var lastName=prompt("Enter last Name","");
 // alert(firstName+lastName);
 
-// *********Chapter 21-25 *****     Assignment 6 *****   Task 7 
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 7
 
 // var city="Hyderabad";
 // var res=city.replace("Hyder","Islam")
 // document.write("City: "+city+"<br>After replacement:"+res);
 
-// *********Chapter 21-25 *****     Assignment 6 *****   Task 8 
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 8
 
 // var message ="Ali and Sami are best friends. They play cricket and football together.";
 // var res="";
@@ -69,22 +69,21 @@
 // alert(messageArray);
 // document.write("Text: "+sentence+" <br>There are "+count+" occurrence(s) of word 'the'");
 
-
-// *********Chapter 21-25 *****     Assignment 6 *****   Task 9 
+// *********Chapter 21-25 *****     Assignment 6 *****   Task 9
 
 // var num=472;
 // var numString=num.toString();
 // // alert(typeof numString);
 // document.write("Value: "+numString+"<br>Type: "+typeof numString+"<br>Value: "+num+"<br>Type: "+typeof num);
 
-// **********Chapter 21-25 ****     Assignment 6 *****   Task 10 
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 10
 
 // var smallWords=prompt("Enter a Word","");
 // var CapWords=smallWords.toUpperCase()
 // // alert(smallWords);
 // document.write("User input: "+smallWords+"<br>Upper case: "+CapWords)
 
-// **********Chapter 21-25 ****     Assignment 6 *****   Task 11 
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 11
 
 // var smallWords=prompt("Enter a Word","");
 // ////alert(typeof smallWords);
@@ -99,11 +98,11 @@
 // //// alert(typeof converttoString);
 // document.write("User input: "+smallWords+"<br>Title case: "+CapWords+"<br>");
 
-// //// one more 
+// //// one more
 // a=smallWords.charAt(0).toUpperCase()+smallWords.slice(1);
 // document.write("<br>"+a);
 
-// **********Chapter 21-25 ****     Assignment 6 *****   Task 12 
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 12
 
 // var num=35.36;
 // var numString=num+"";
@@ -112,25 +111,25 @@
 // // alert(numString);
 // document.write("Number: "+num+"<br>Result: "+numString);
 
-// **********Chapter 21-25 ****     Assignment 6 *****   Task 13 
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 13
 
 // var userName=prompt("Enter a User Name");
 // if(userName.indexOf(33)){
 //     alert("Please enter a valid username");
 // }
-        /////problem can't understand how to solve
-// **********Chapter 21-25 ****     Assignment 6 *****   Task 14 
+/////problem can't understand how to solve
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 14
 
-// var A=["cake", "apple pie", "cookie", "chips", "patties"] 
+// var A=["cake", "apple pie", "cookie", "chips", "patties"]
 // var check=prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?","");
 // if(A.indexOf(check) !==-1){
-//     alert("Yes! Is available in our bakery"); 
+//     alert("Yes! Is available in our bakery");
 // }else{
 //     alert("We are sorry! is not available in our bakery");
 
 // }                                                                                0=48 9=57
 
-// **********Chapter 21-25 ****     Assignment 6 *****   Task 15 
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 15
 
 // var password=prompt("Enter Password ");
 // // var convert=password.charCodeAt();
@@ -149,22 +148,22 @@
 //     }
 // }
 
-// **********Chapter 21-25 ****     Assignment 6 *****   Task 16 
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 16
 
 // var university="University of Karachi";
 // universityArray=university.split("");
 // for(var i=0;i<university.length;i++){
-//     document.write(universityArray[i]+"<br>"); 
+//     document.write(universityArray[i]+"<br>");
 // }
 //// document.write(universityArray);
 
-// **********Chapter 21-25 ****     Assignment 6 *****   Task 17 
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 17
 
 // var Word="Pakistan";
 // var split=Word.split("")
 // document.write("User input: "+Word+"<br>Last Character of input "+split[Word.length-1]);
 
-// **********Chapter 21-25 ****     Assignment 6 *****   Task 18 
+// **********Chapter 21-25 ****     Assignment 6 *****   Task 18
 
 // var sentence="The quick the brown fox the jumps over the lazy dog."
 // var sentenceArray=sentence.split(" ") //// here we provide space for perticular word as a array index
@@ -177,24 +176,24 @@
 // }
 // document.write("Text: "+sentence+" <br>There are "+count+" occurrence(s) of word 'the'");
 
-// ***********Chapter 26-30 **     Assignment 6 *****   Task 1 
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 1
 
 // var num=prompt("Enter a number");
 // // var num=3.452;
 // document.write("number: "+num+"<br>round off value: "+Math.round(num)+"<br>floor value: "+Math.floor(num)+"<br>ceil value: "+Math.ceil(num));
 
-// ***********Chapter 26-30 **     Assignment 6 *****   Task 2 
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 2
 
 // var num=prompt("Enter a Negative number");
 // // var num=3.452;
 // document.write("number: "+num+"<br>round off value: "+Math.round(num)+"<br>floor value: "+Math.floor(num)+"<br>ceil value: "+Math.ceil(num));
 
-// ***********Chapter 26-30 **     Assignment 6 *****   Task 3 
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 3
 
 // var number=prompt("Enter a number");
 // document.write("The absolute value of "+number+" is "+Math.abs(number));
 
-// ***********Chapter 26-30 **     Assignment 6 *****   Task 4 
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 4
 
 // var bigDecimal = Math.random();
 // // document.write(bigDecimal+"<br>");
@@ -204,7 +203,7 @@
 // // document.write(numberOfStars);
 // document.write("random dice value: "+numberOfStars);
 
-// ***********Chapter 26-30 **     Assignment 6 *****   Task 5 
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 5
 
 // var randomValue=Math.random();
 // // document.write("value "+value);
@@ -218,7 +217,7 @@
 //         document.write(result+"<br>random coin value: Tails");
 // }
 
-// ***********Chapter 26-30 **     Assignment 6 *****   Task 6 
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 6
 
 // var bigDecimal = Math.random();
 // // document.write(bigDecimal+"<br>");
@@ -228,7 +227,7 @@
 // // document.write(numberOfStars);
 // document.write("random number between 1 and 100: "+numberOfStars);
 
-// ***********Chapter 26-30 **     Assignment 6 *****   Task 7 
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 7
 
 // var userWeight=+prompt("Enter Your Weight");
 // var bigDecimal = Math.random();
@@ -240,7 +239,7 @@
 // // document.write(numberOfStars);
 // document.write("The weight of user is "+(userWeight+numberOfStars));
 
-// ***********Chapter 26-30 **     Assignment 6 *****   Task 8 
+// ***********Chapter 26-30 **     Assignment 6 *****   Task 8
 
 // var bigDecimal = Math.random();
 // // document.write(bigDecimal+"<br>");
@@ -256,15 +255,15 @@
 //         alert("Sorry! The Secret key is "+numberOfStars);
 // }
 
-// **********Chapter 31-34********     Assignment 6 *****   Task 1 
+// **********Chapter 31-34********     Assignment 6 *****   Task 1
 
 // var date=Date();
 // document.write(date);
 
-// **********Chapter 31-34********     Assignment 6 *****   Task 2 
+// **********Chapter 31-34********     Assignment 6 *****   Task 2
 
 //// date.toString();     //here is a mistake that date to string not save in any variable.
-//// var month=date.slice(0,3)    
+//// var month=date.slice(0,3)
 //// var b=date.toString();
 //// var month=b.(0,3)    //new key word is important for getTime getDay ...
 //// document.write("Current Month: "+month);
@@ -299,18 +298,18 @@
 //         document.write("Current Month: December");
 // }
 
-// **********Chapter 31-34********     Assignment 6 *****   Task 3 
+// **********Chapter 31-34********     Assignment 6 *****   Task 3
 
 // var date=new Date();
-// var day=date.toString(); //here date convert into string and save in day 
-//     day=day.slice(0,3); // now here day update with slice 
+// var day=date.toString(); //here date convert into string and save in day
+//     day=day.slice(0,3); // now here day update with slice
 // alert("Today is "+day)
 
-// **********Chapter 31-34********     Assignment 6 *****   Task 4 
+// **********Chapter 31-34********     Assignment 6 *****   Task 4
 
 // var date=new Date();
-// var day=date.toString(); //here date convert into string and save in day 
-//     day=day.slice(0,3); // now here day update with slice 
+// var day=date.toString(); //here date convert into string and save in day
+//     day=day.slice(0,3); // now here day update with slice
 // // alert("Today is "+day)
 // if(day==="Sun" || day==="sun" || day==="Sat" || day==="sat"){
 //         alert("Its Fun Day")
@@ -318,7 +317,7 @@
 //         alert("Its Working Day")
 // }
 
-// **********Chapter 31-34********     Assignment 6 *****   Task 5 
+// **********Chapter 31-34********     Assignment 6 *****   Task 5
 
 // var date=new Date();
 // var day=date.getDate();
@@ -329,7 +328,7 @@
 //         alert("Last Days of the month")
 // }
 
-// **********Chapter 31-34********     Assignment 6 *****   Task 6 
+// **********Chapter 31-34********     Assignment 6 *****   Task 6
 
 // var date=new Date();
 // var msec=date.getTime();
@@ -337,7 +336,7 @@
 // document.write("<br>Elapsed milliseconds since January 1,1970: "+msec);
 // document.write("<br>Elapsed minutes since January 1,1970: "+msec/60);
 
-// **********Chapter 31-34********     Assignment 6 *****   Task 7 
+// **********Chapter 31-34********     Assignment 6 *****   Task 7
 
 // var date=new Date();
 // var mode=date.getHours();
@@ -348,15 +347,15 @@
 //         alert("Its PM");
 // }
 
-// **********Chapter 31-34********     Assignment 6 *****   Task 8 
+// **********Chapter 31-34********     Assignment 6 *****   Task 8
 
 // var date=new Date();
 // var day=date.getFullYear()
 // alert("Later Date: Thu Dec 31 2020 00:00:00 GMT+0500(PKT)");
 
-// **********Chapter 31-34********     Assignment 6 *****   Task 9 
+// **********Chapter 31-34********     Assignment 6 *****   Task 9
 
-// var firstRamzan=new Date("June 18,2015"); //apni date insert 
+// var firstRamzan=new Date("June 18,2015"); //apni date insert
 //     firstRamzan=firstRamzan.getTime(); //apni date tk k time milli per rakh k set krwao getime() k function sy
 // var currentDays=new Date();     // aj ka date and overwrite
 //     currentDays=currentDays.getTime();  // aj k date tk ka time in milli
@@ -364,18 +363,18 @@
 //     totalDays=Math.floor(totalDays); //roundoff and overwrite
 //     alert(totalDays)
 
-// ***********Chapter 31-34*******     Assignment 6 *****   Task 10 
+// ***********Chapter 31-34*******     Assignment 6 *****   Task 10
 
-// var refDate=new Date("Dec 05,2015"); //apni date insert 
+// var refDate=new Date("Dec 05,2015"); //apni date insert
 //     refDate=refDate.getTime(); //apni date tk k time milli per rakh k set krwao getime() k function sy
 //     var currentDays=new Date();     // aj ka date and overwrite
 //     currentDays=currentDays.getTime();  // aj k date tk ka time in milli
 // var totalSec=(currentDays-refDate)/(1000);  //convert into seconds and also take difference
 //     totalSec=Math.floor(totalSec); //roundoff and overwrite
-//     document.write("On reference date Sat Dec 05 2015 GMT+0500(PKT)"); 
-//     document.write("<br>"+totalSec+" seconds had passed since beginning of 2015"); 
+//     document.write("On reference date Sat Dec 05 2015 GMT+0500(PKT)");
+//     document.write("<br>"+totalSec+" seconds had passed since beginning of 2015");
 
-// ***********Chapter 31-34*******     Assignment 6 *****   Task 11 
+// ***********Chapter 31-34*******     Assignment 6 *****   Task 11
 
 // var currentDate=new Date();
 // //     currentDate=currentDate.getTime()
@@ -388,7 +387,7 @@
 
 //// KINDLY HELP HOW TO SOVE
 
-// ***********Chapter 31-34*******     Assignment 6 *****   Task 12 
+// ***********Chapter 31-34*******     Assignment 6 *****   Task 12
 
 // var currentDate=new Date();
 // document.write(currentDate);
@@ -399,8 +398,7 @@
 //     // hunYearAgo=hunYearAgo.getTime();
 // document.write("<br>"+hunYearAgo);
 
-
-// ***********Chapter 31-34*******     Assignment 6 *****   Task 13 
+// ***********Chapter 31-34*******     Assignment 6 *****   Task 13
 
 // var age=prompt("Enter Your Age");
 // var currentYear=new Date();
@@ -408,7 +406,7 @@
 // var dob=currentYear-age;
 // document.write("Your age is "+age+"<br>Your birth year is "+dob)
 
-// ***********Chapter 31-34*******     Assignment 6 *****   Task 14 
+// ***********Chapter 31-34*******     Assignment 6 *****   Task 14
 
 // var units=410; charges=16;bill=units*charges;late=350;lateBill=bill+late;
 // document.write("<h1>K-Electric Bill<br></h1>");
@@ -420,7 +418,7 @@
 // document.write("<br>Late payment surcharge: <b>"+late+"</b>");
 // document.write("<br>Gross Amount Payable (after Due Date): <b>"+lateBill+"</b>");
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 1 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 1
 
 // function time(){
 //         var date=new Date();
@@ -428,7 +426,7 @@
 // }
 // time();
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 2 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 2
 
 // function greet(firstName,lastName){
 //         alert("Welcome "+(firstName+lastName));
@@ -437,7 +435,7 @@
 // var lastName=prompt("Enter your Last Name")
 // greet(firstName,lastName);
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 3 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 3
 
 // function add(Num1,Num2){
 //         var result=Num1+Num2
@@ -448,10 +446,10 @@
 // var result=add(num1,num2);
 // alert("Result is "+result);
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 4 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 4
 
 // function calculator(firstValue,operator,SecondValue){
-// //here only calculate 
+// //here only calculate
 //         if(operator === "-")
 //             {
 //                 var c=a-b;
@@ -484,35 +482,35 @@
 // var result=calculator(a,operator,b);
 // if(operator === "-") //here if use because a/c to question return and also explain what operation done here.
 // {
-//     document.write("Difference of "+a+" and "+b+" is "+result+".");   
+//     document.write("Difference of "+a+" and "+b+" is "+result+".");
 // }
 // else if(operator === "*")
 // {
-//     document.write("Multiple of "+a+" and "+b+" is "+result+".");   
+//     document.write("Multiple of "+a+" and "+b+" is "+result+".");
 // }
 // else if(operator === "/")
 // {
-//     document.write("Division of "+a+" by "+b+" is "+result+".");   
+//     document.write("Division of "+a+" by "+b+" is "+result+".");
 // }
 // else if(operator === "+")
 // {
-//     document.write("Sum of "+a+" and "+b+" is "+result+".");   
+//     document.write("Sum of "+a+" and "+b+" is "+result+".");
 // }
 // else if(operator === "%")
 // {
-//     document.write("Modulus of "+a+" and "+b+" is "+result*100+"% .");   
+//     document.write("Modulus of "+a+" and "+b+" is "+result*100+"% .");
 // }
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 5 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 5
 
 // function square(Num){
 //         alert("Square of "+Num+" is "+Num*Num);
-        
+
 // }
 // var Value=prompt("Enter a Value for Its Square");
 // square(Value);
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 6 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 6
 
 // function factorial(Num){
 //         for(var i=Num-1;i>=1;i--){
@@ -523,7 +521,7 @@
 // var Value=prompt("Enter a Number");
 // factorial(Value);
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 7 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 7
 
 // function count(start,end){
 //         document.write("<h1>Counting</h1>Starting "+start+"<br>Ending "+end+"<br>")
@@ -535,7 +533,7 @@
 // var num2=+prompt("Enter Ending Value");
 // count(num1,num2);
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 8 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 8
 
 // function square(value){
 //         value=value*value
@@ -560,17 +558,17 @@
 // //console.log("<br>perp1 "+perp1)
 // countHypo(base1,perp1);
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 9 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 9
 
 // function areaFind(value1,value2){
 //         document.write("<h1>Area of a Triangle</h1>")
 //         document.write("<br>Height: "+value2+"<br>Width: "+value1+"<br>Area: "+value1*value2);
 // }
-// var width=+prompt("Enter Width of a Triangle") 
+// var width=+prompt("Enter Width of a Triangle")
 // var height=+prompt("Enter Height of a Triangle")
-// areaFind(width,height) 
+// areaFind(width,height)
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 10 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 10
 
 // function checkPalindrome(word){
 //         var check="";
@@ -586,7 +584,7 @@
 // var userWord=prompt("Enter a Word");
 // checkPalindrome(userWord);
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 11 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 11
 
 // //// var input="the good fox";
 // //// console.log(input);
@@ -608,8 +606,8 @@
 //         // console.log(split);
 //         for(var i=0;i<split.length;i++){        //here split.length q k hamen split jitny words hoa hen un k start ho change krna hai or wo kitny ye btayega
 //                  convert[i]=split[i].toString().charAt(0).toUpperCase()+split[i].slice(1);
-// }//1st array to string 2nd firstletter convert into uppercase 
-// //3rd add( concadinate kro) slice(1) sy not slice(0)X q k (0)index per capital word hai or hamen us k agy sy add krna hai 
+// }//1st array to string 2nd firstletter convert into uppercase
+// //3rd add( concadinate kro) slice(1) sy not slice(0)X q k (0)index per capital word hai or hamen us k agy sy add krna hai
 // // 4th convert[i] yahn hum wapis array me save kr rhen
 //         convert=convert.toString()    //here array sy string per ly aye wapis
 //         document.write("Input Sentence: "+input+"<br>Convert Sentence:  "+convert);
@@ -620,7 +618,7 @@
 // var input=prompt("Enter a Sentence");
 // var split=input.split(" ");
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 13 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 13
 
 // var sentence=prompt("Enter a Sentence");
 // var Letter=prompt("Enter a Letter");
@@ -632,7 +630,7 @@
 // }
 // document.write("Input Sentence is : "+sentence+"<br>Search Letter '"+Letter.toUpperCase()+"' Comes: "+count);
 
-// ***********Chapter 35-38*******     Assignment 6 *****   Task 14 
+// ***********Chapter 35-38*******     Assignment 6 *****   Task 14
 
 // function calcCircumference(radiusVal){
 //         var circum=Math.floor(2*Math.PI*radiusVal);
@@ -642,6 +640,6 @@
 //         var area=Math.floor(Math.PI*radiusVal*radiusVal)
 //         document.write("<br>Area of Circle is :"+area)
 // }
-// var radius=+prompt("Enter Radius of a Circle") 
+// var radius=+prompt("Enter Radius of a Circle")
 // calcCircumference(radius);
-// calcArea(radius); 
+// calcArea(radius);
